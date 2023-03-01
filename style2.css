@@ -20,6 +20,12 @@
   }
 }
 
+@media screen and (min-width: 768px){
+.HeaderLogo:hover {
+  opacity: .8;
+ }
+}
+
 
 .HeaderContainer {
   display: flex;
@@ -61,11 +67,7 @@
   margin-left: 45px;
 }
 
-@media screen and (min-width: 768px){
-.HeaderNavListItem {
-    transition: opacity .2s;
-  }
-}
+
 
 .HeaderNavListItem__link {
     display: block;
@@ -90,13 +92,15 @@
 }
 
 @media screen and (min-width: 768px){
-.HeaderNavListItem {
-    transition: opacity .2s;
+.HeaderNavListItems {
+  transition: opacity .2s;
   }
 }
 
-.HeaderNavListItem__button:visited {
-    color: #fff;
+@media screen and (min-width: 768px) {
+.HeaderNavListItems:hover {
+  opacity: .8;
+  }
 }
 
 .HeaderNavListItem__button {
@@ -116,6 +120,12 @@
   text-align: center;
   width: 100%;
   padding: 0 20px;
+}
+
+@media screen and (min-width: 768px){
+.HeaderNavListItem__button:hover {
+  opacity: .8;
+  }
 }
 
 .Header {
@@ -363,6 +373,12 @@ img {
 @media screen and (max-width: 767px) {
   .FirstViewContent_buttons a:last-of-type {
     display: none;
+  }
+}
+
+@media screen and (min-width: 768px){
+.FirstViewContent_buttons a:hover {
+  opacity: .8;
   }
 }
 
